@@ -733,6 +733,25 @@ body.page-office .banner-meta {
   color: #ffffff;
 }
 
+.pricing-card-structured > strong:first-child {
+  display: block;
+  margin-bottom: 1.1rem;
+  line-height: 1.12;
+}
+
+.pricing-card-structured .muted {
+  line-height: 1.42;
+}
+
+.pricing-card-structured p + p {
+  margin-top: 0.22rem;
+}
+
+.pricing-card-structured .small-note {
+  margin-top: 0.95rem;
+  font-size: 0.98rem;
+}
+
 .pricing-card.service-tone-1 .muted,
 .pricing-card.service-tone-2 .muted,
 .pricing-card.service-tone-3 .muted,
