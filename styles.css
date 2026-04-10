@@ -981,6 +981,10 @@ body.page-office .banner-meta {
   height: auto;
 }
 
+.logo-pill-image-wide img {
+  max-width: 260px;
+}
+
 .stacked-references {
   display: grid;
   gap: 1rem;
