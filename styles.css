@@ -969,6 +969,18 @@ body.page-office .banner-meta {
   color: var(--accent);
 }
 
+.logo-pill-image {
+  background: #ffffff;
+  padding: 0.75rem 1rem;
+}
+
+.logo-pill-image img {
+  display: block;
+  max-width: 190px;
+  width: 100%;
+  height: auto;
+}
+
 .stacked-references {
   display: grid;
   gap: 1rem;
