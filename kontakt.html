@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt | Viktorie Cleaning</title>
+  <meta name="description" content="Kontaktujte Viktorie Cleaning a získejte nezávaznou cenovou nabídku na úklid apartmánů, kanceláří nebo bytových domů v Praze.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html"><span class="brand-mark">Viktorie Cleaning</span><span class="brand-sub">Úklid komerčních prostor v Praze</span></a>
+      <button class="nav-toggle" data-nav-toggle="#kontakt-nav" aria-expanded="false" aria-label="Otevřít menu">Menu</button>
+      <nav class="nav-links" id="kontakt-nav">
+        <a href="index.html">Homepage</a>
+        <a href="sluzby.html">Služby</a>
+        <a href="cenik.html">Ceník</a>
+        <a href="reference.html">Reference</a>
+        <a href="o-nas.html">O nás</a>
+        <a class="active" href="kontakt.html">Kontakt</a>
+        <a class="nav-cta" href="kontakt.html">Získat cenovou nabídku</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="page-hero">
+      <div class="container page-hero-grid">
+        <div class="page-hero-copy">
+          <span class="eyebrow">Kontakt</span>
+          <h1>Pošlete poptávku a připravíme řešení na míru</h1>
+          <p>Ozvěte se nám kvůli pravidelnému i jednorázovému úklidu v Praze. Po krátké konzultaci navrhneme vhodný rozsah služeb i cenovou nabídku.</p>
+        </div>
+        <div class="page-hero-visual page-photo photo-generic" aria-hidden="true">
+          <div class="visual-badge visual-badge-dark">
+            <strong>Rychlá orientace</strong>
+            <span>Stačí typ prostoru, lokalita, frekvence a přibližná výměra.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-layout">
+        <div class="feature-panel">
+          <h3>Kontaktní formulář</h3>
+          <form class="contact-form" id="kontaktni-formular">
+            <div class="field">
+              <label for="name">Jméno a firma</label>
+              <input id="name" name="name" type="text" placeholder="Např. Jan Novák, ABC Office">
+            </div>
+            <div class="field">
+              <label for="service">Typ služby</label>
+              <select id="service" name="service">
+                <option>Úklid apartmánů</option>
+                <option>Úklid kanceláří</option>
+                <option>Bytové domy</option>
+                <option>Generální úklid</option>
+                <option>Mytí oken</option>
+                <option>Tepování</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="email">E-mail</label>
+              <input id="email" name="email" type="email" placeholder="vas@email.cz">
+            </div>
+            <div class="field">
+              <label for="message">Popis prostoru a požadavku</label>
+              <textarea id="message" name="message" placeholder="Velikost prostoru, lokalita, frekvence, časový režim..."></textarea>
+            </div>
+            <button class="button button-primary" type="submit">Odeslat poptávku</button>
+            <div class="small-note">Formulář je připravený vizuálně. Pro reálné odesílání bude potřeba napojit e-mail nebo formulářovou službu.</div>
+          </form>
+        </div>
+        <div class="feature-panel">
+          <h3>Co je dobré uvést</h3>
+          <ul class="check-list">
+            <li>typ objektu a jeho lokalitu</li>
+            <li>přibližnou velikost nebo počet jednotek</li>
+            <li>požadovanou frekvenci úklidu</li>
+            <li>specifické požadavky na provoz nebo přístup</li>
+          </ul>
+          <p class="muted">Telefon, e-mail a sídlo doplňte podle vašich reálných kontaktních údajů. Zatím je stránka připravená bez fiktivních kontaktů.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container footer-bar">
+      <div><strong>Viktorie cleaning</strong><br><span>Úklid komerčních prostor v Praze</span></div>
+      <nav class="footer-nav"><a href="kariera.html">Kariéra / Práce</a><a href="kontakt.html">Kontakt</a></nav>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
