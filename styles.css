@@ -70,18 +70,26 @@ img {
 .brand {
   display: inline-flex;
   flex-direction: column;
-  gap: 0.1rem;
+  gap: 0.35rem;
 }
 
-.brand-mark {
-  font-size: 1.2rem;
-  font-weight: 800;
-  letter-spacing: -0.04em;
+.brand-logo {
+  display: block;
+  width: auto;
+  height: 58px;
+  max-width: min(280px, 34vw);
 }
 
 .brand-sub {
   font-size: 0.8rem;
   color: var(--text-soft);
+}
+
+.footer-logo {
+  display: block;
+  width: auto;
+  height: 50px;
+  margin-bottom: 0.4rem;
 }
 
 .nav-toggle {
