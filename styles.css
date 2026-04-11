@@ -988,6 +988,12 @@ body.page-office .banner-meta {
   color: var(--accent);
 }
 
+.logo-pill-placeholder {
+  color: var(--text-soft);
+  background: linear-gradient(180deg, #fbfcfd, #f3f7fa);
+  border-style: dashed;
+}
+
 .logo-pill-image {
   background: #ffffff;
   padding: 0.75rem 1rem;
