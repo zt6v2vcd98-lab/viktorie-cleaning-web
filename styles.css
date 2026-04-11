@@ -1024,6 +1024,8 @@ body.page-office .banner-meta {
   display: grid;
   gap: 1rem;
   margin-bottom: 1rem;
+  align-content: start;
+  min-height: 9.5rem;
 }
 
 .reference-brand .logo-pill {
