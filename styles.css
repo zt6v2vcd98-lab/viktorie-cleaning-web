@@ -1037,6 +1037,10 @@ body.page-office .banner-meta {
   gap: 1rem;
 }
 
+.reference-card-link {
+  color: inherit;
+}
+
 .reference-brand .logo-pill {
   min-height: 90px;
 }
