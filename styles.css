@@ -491,6 +491,11 @@ body.page-office .banner-meta {
   background-image: url("https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fit=crop&w=1400&q=80");
 }
 
+.photo-about-team::before {
+  background-image: url("o-nas-tym.png");
+  background-position: center 18%;
+}
+
 .photo-houses::before {
   background-image: url("bytove-domy-hero.png");
 }
