@@ -1138,7 +1138,7 @@ body.page-office .banner-meta {
 }
 
 .values-panel {
-  max-width: 920px;
+  max-width: 100%;
 }
 
 .values-panel h2 {
@@ -1146,8 +1146,8 @@ body.page-office .banner-meta {
 }
 
 .values-panel p {
-  color: rgba(255, 255, 255, 0.86);
-  max-width: 760px;
+  color: var(--text-soft);
+  max-width: 1000px;
 }
 
 .story-timeline {
