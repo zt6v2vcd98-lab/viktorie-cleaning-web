@@ -972,8 +972,8 @@ body.page-office .banner-meta {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 86px;
-  padding: 1rem 1.2rem;
+  min-height: 116px;
+  padding: 1rem 1.25rem;
   border-radius: var(--radius-lg);
   border: 1px solid var(--line);
   background: #ffffff;
@@ -996,16 +996,24 @@ body.page-office .banner-meta {
 
 .logo-pill-image {
   background: #ffffff;
-  padding: 0.75rem 1rem;
+  padding: 0.95rem 1.1rem;
 }
 
-.logo-pill-image img {
+.logo-mark {
   display: block;
+  width: 100%;
   max-width: 100%;
-  max-height: 42px;
-  width: auto;
-  height: auto;
+  height: 54px;
   object-fit: contain;
+  object-position: center;
+}
+
+.logo-mark-wide {
+  height: 48px;
+}
+
+.logo-mark-tall {
+  height: 66px;
 }
 
 .stacked-references {
