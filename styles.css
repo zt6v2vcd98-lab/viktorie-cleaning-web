@@ -1005,8 +1005,36 @@ body.page-office .banner-meta {
   gap: 1rem;
 }
 
+.reference-feature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
 .quote-card-large {
   padding: 1.65rem;
+}
+
+.reference-feature-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.reference-brand {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.reference-brand .logo-pill {
+  min-height: 90px;
+}
+
+.reference-brand strong {
+  margin: 0;
+  min-height: 3.2rem;
+  color: var(--text);
 }
 
 .quote-meta-top {
@@ -1474,5 +1502,9 @@ body.page-upholstery .step-featured .step-dot {
   .footer-bar,
   .section-head {
     align-items: start;
+  }
+
+  .reference-feature-grid {
+    grid-template-columns: 1fr;
   }
 }
