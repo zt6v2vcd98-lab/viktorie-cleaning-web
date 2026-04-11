@@ -127,6 +127,13 @@ img {
   box-shadow: var(--shadow);
 }
 
+.nav-links .nav-cta,
+.nav-links .nav-cta:hover,
+.nav-links .nav-cta.active {
+  color: #ffffff;
+  background: var(--accent);
+}
+
 .page-hero,
 .hero {
   padding: 5.5rem 0 4rem;
