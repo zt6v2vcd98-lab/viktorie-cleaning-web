@@ -1144,10 +1144,11 @@ body.page-office .banner-meta {
 
 .values-panel h2 {
   margin-top: 0.45rem;
+  color: #ffffff;
 }
 
 .values-panel p {
-  color: rgba(255, 255, 255, 0.86);
+  color: rgba(255, 255, 255, 0.92);
   max-width: 1000px;
 }
 
