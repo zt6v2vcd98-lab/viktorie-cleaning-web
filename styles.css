@@ -944,9 +944,17 @@ body.page-office .banner-meta {
   font-size: 1.05rem;
 }
 
+.quote-card {
+  display: flex;
+  flex-direction: column;
+}
+
 .quote-card strong {
-  display: inline-block;
-  margin-top: 1rem;
+  display: flex;
+  align-items: flex-end;
+  margin-top: auto;
+  min-height: 3rem;
+  padding-top: 1rem;
   color: var(--accent);
 }
 
