@@ -1286,13 +1286,8 @@ body.page-office .banner-meta {
   align-items: stretch;
 }
 
-.contact-hero-side {
-  display: grid;
-  gap: 1rem;
-}
-
 .contact-hero-photo {
-  min-height: 220px;
+  min-height: 100%;
   border-radius: var(--radius-xl);
   overflow: hidden;
   border: 1px solid rgba(17, 32, 51, 0.08);
@@ -1789,10 +1784,6 @@ body.page-upholstery .step-featured .step-dot {
   .hero,
   .page-hero {
     padding-top: 4.5rem;
-  }
-
-  .contact-hero-side {
-    grid-template-columns: 1fr;
   }
 
   .story-item {
