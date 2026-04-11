@@ -1501,6 +1501,10 @@ body.page-upholstery .step-featured .step-dot {
     grid-template-columns: 1fr;
   }
 
+  .logo-strip {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .timeline::before {
     top: 1.2rem;
     bottom: 1.2rem;
@@ -1612,6 +1616,10 @@ body.page-upholstery .step-featured .step-dot {
   }
 
   .reference-feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .logo-strip {
     grid-template-columns: 1fr;
   }
 }
