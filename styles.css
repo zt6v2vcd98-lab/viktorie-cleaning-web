@@ -1152,6 +1152,13 @@ body.page-office .banner-meta {
   max-width: 1000px;
 }
 
+.why-intro.values-panel,
+.why-intro.values-panel p,
+.why-intro.values-panel .muted,
+.why-intro.values-panel .subtle {
+  color: #ffffff;
+}
+
 .why-intro.values-panel {
   max-width: 100%;
   width: 100%;
