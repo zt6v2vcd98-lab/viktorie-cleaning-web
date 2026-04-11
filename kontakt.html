@@ -25,29 +25,69 @@
   </header>
   <main>
     <section class="page-hero">
-      <div class="container page-hero-grid">
+      <div class="container contact-hero-grid">
         <div class="page-hero-copy">
           <span class="eyebrow">Kontakt</span>
-          <h1>Pošlete poptávku a připravíme řešení na míru</h1>
-          <p>Ozvěte se nám kvůli pravidelnému i jednorázovému úklidu v Praze. Po krátké konzultaci navrhneme vhodný rozsah služeb i cenovou nabídku.</p>
+          <h1>Jsme připraveni řešit váš provoz</h1>
+          <p>Ozvěte se nám a připravíme pro vás nezávaznou nabídku na míru. Rádi s vámi projdeme rozsah služeb, termíny i orientační cenu.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#kontaktni-formular">Napsat poptávku</a>
+          </div>
         </div>
-        <div class="page-hero-visual page-photo photo-generic" aria-hidden="true">
-          <div class="visual-badge visual-badge-dark">
-            <strong>Rychlá orientace</strong>
-            <span>Stačí typ prostoru, lokalita, frekvence a přibližná výměra.</span>
+        <div class="contact-card">
+          <h3>Kontaktní osoby</h3>
+          <div class="contact-person-list">
+            <div class="contact-person">
+              <strong>Markéta SCHROCKOVÁ</strong>
+              <a href="tel:+420775719694">+420 775 719 694</a>
+              <span>(CZ / ENG)</span>
+            </div>
+            <div class="contact-person">
+              <strong>Viktorya FORYS</strong>
+              <a href="tel:+420773669186">+420 773 669 186</a>
+              <span>(CZ / UKR)</span>
+            </div>
+          </div>
+          <div class="contact-divider"></div>
+          <div class="contact-info-block">
+            <span class="contact-label">E-mail</span>
+            <a href="mailto:chci@viktoriecleaning.cz">chci@viktoriecleaning.cz</a>
+          </div>
+          <div class="contact-divider"></div>
+          <div class="contact-info-block">
+            <strong>Viktorie cleaning s.r.o.</strong>
+            <span>Sněmovní 174/7</span>
+            <span>118 00 Praha 1</span>
+            <span>IČO: 21265038</span>
+            <span>DIČ: CZ21265038</span>
+            <span>Bankovní spojení: 2802826209/2010</span>
           </div>
         </div>
       </div>
     </section>
 
     <section class="section">
-      <div class="container contact-layout">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow">Formulář</span>
+            <h2>Napište nám</h2>
+          </div>
+        </div>
+        <div class="contact-layout">
         <div class="feature-panel">
-          <h3>Kontaktní formulář</h3>
           <form class="contact-form" id="kontaktni-formular">
             <div class="field">
-              <label for="name">Jméno a firma</label>
-              <input id="name" name="name" type="text" placeholder="Např. Jan Novák, ABC Office">
+              <label for="name">Jméno</label>
+              <input id="name" name="name" type="text" placeholder="Vaše jméno">
+            </div>
+            <div class="field">
+              <label for="phone">Telefon</label>
+              <input id="phone" name="phone" type="tel" placeholder="+420 ...">
+            </div>
+            <div class="field">
+              <label for="email">E-mail</label>
+              <input id="email" name="email" type="email" placeholder="vas@email.cz">
             </div>
             <div class="field">
               <label for="service">Typ služby</label>
@@ -61,26 +101,25 @@
               </select>
             </div>
             <div class="field">
-              <label for="email">E-mail</label>
-              <input id="email" name="email" type="email" placeholder="vas@email.cz">
+              <label for="space">Krátký popis prostoru</label>
+              <input id="space" name="space" type="text" placeholder="Např. kancelář 250 m2, Praha 1">
             </div>
             <div class="field">
-              <label for="message">Popis prostoru a požadavku</label>
-              <textarea id="message" name="message" placeholder="Velikost prostoru, lokalita, frekvence, časový režim..."></textarea>
+              <label for="message">Zpráva</label>
+              <textarea id="message" name="message" placeholder="Napište nám rozsah služeb, termíny a další důležité informace..."></textarea>
             </div>
             <button class="button button-primary" type="submit">Odeslat poptávku</button>
             <div class="small-note">Formulář je připravený vizuálně. Pro reálné odesílání bude potřeba napojit e-mail nebo formulářovou službu.</div>
           </form>
         </div>
         <div class="feature-panel">
-          <h3>Co je dobré uvést</h3>
-          <ul class="check-list">
-            <li>typ objektu a jeho lokalitu</li>
-            <li>přibližnou velikost nebo počet jednotek</li>
-            <li>požadovanou frekvenci úklidu</li>
-            <li>specifické požadavky na provoz nebo přístup</li>
-          </ul>
-          <p class="muted">Telefon, e-mail a sídlo doplňte podle vašich reálných kontaktních údajů. Zatím je stránka připravená bez fiktivních kontaktů.</p>
+          <h3>Působíme v Praze a okolí</h3>
+          <div class="map-block">
+            <div class="map-pin"></div>
+            <p class="muted">Obsluhujeme Prahu a blízké okolí. Podle typu provozu a frekvence úklidu nastavíme nejvhodnější režim spolupráce.</p>
+          </div>
+          <div class="notice">Odpovídáme zpravidla do 24 hodin.</div>
+        </div>
         </div>
       </div>
     </section>

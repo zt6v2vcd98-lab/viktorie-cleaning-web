@@ -1279,6 +1279,86 @@ body.page-office .banner-meta {
   color: var(--text-soft);
 }
 
+.contact-hero-grid {
+  display: grid;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: 1rem;
+  align-items: stretch;
+}
+
+.contact-card {
+  padding: 2rem;
+  border-radius: var(--radius-xl);
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(17, 32, 51, 0.08);
+  box-shadow: var(--shadow);
+}
+
+.contact-card h3 {
+  margin-bottom: 1.2rem;
+}
+
+.contact-person-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.contact-person,
+.contact-info-block {
+  display: grid;
+  gap: 0.25rem;
+}
+
+.contact-person strong,
+.contact-info-block strong,
+.contact-label {
+  color: var(--text);
+}
+
+.contact-person a,
+.contact-info-block a {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.contact-person span,
+.contact-info-block span {
+  color: var(--text-soft);
+}
+
+.contact-divider {
+  height: 1px;
+  background: var(--line);
+  margin: 1.2rem 0;
+}
+
+.map-block {
+  padding: 1.4rem;
+  border-radius: var(--radius-lg);
+  background: linear-gradient(180deg, #f7fafc, #eef4f8);
+  border: 1px solid #dfe7ee;
+  display: grid;
+  gap: 1rem;
+}
+
+.map-pin {
+  width: 72px;
+  height: 72px;
+  border-radius: 24px 24px 24px 0;
+  transform: rotate(-45deg);
+  background: linear-gradient(135deg, var(--accent) 0%, #4e82b8 100%);
+  position: relative;
+}
+
+.map-pin::after {
+  content: "";
+  position: absolute;
+  inset: 20px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.92);
+}
+
 .positioning {
   text-align: center;
   padding: 2.1rem;
@@ -1605,6 +1685,7 @@ body.page-upholstery .step-featured .step-dot {
 @media (max-width: 980px) {
   .hero-grid,
   .page-hero-grid,
+  .contact-hero-grid,
   .contact-layout,
   .about-layout,
   .why-grid,
