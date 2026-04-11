@@ -1088,6 +1088,10 @@ body.page-office .banner-meta {
   margin-top: 1rem;
 }
 
+.reference-feature-card .quote-meta-bottom {
+  color: var(--text);
+}
+
 .about-visual-note {
   max-width: 270px;
 }
