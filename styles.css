@@ -1146,6 +1146,10 @@ body.page-office .banner-meta {
   background: linear-gradient(135deg, #3d466a, #6778a8);
 }
 
+.service-tag-home {
+  background: linear-gradient(135deg, #755320, #c38c33);
+}
+
 .about-visual-note {
   max-width: 270px;
 }
