@@ -1295,7 +1295,7 @@ body.page-office .banner-meta {
 }
 
 .contact-hero-photo {
-  min-height: 100%;
+  min-height: 420px;
   border-radius: var(--radius-xl);
   overflow: hidden;
   border: 1px solid rgba(17, 32, 51, 0.08);
@@ -1308,6 +1308,7 @@ body.page-office .banner-meta {
   background: rgba(255, 255, 255, 0.92);
   border: 1px solid rgba(17, 32, 51, 0.08);
   box-shadow: var(--shadow);
+  align-self: start;
 }
 
 .contact-card h3 {
@@ -1838,6 +1839,10 @@ body.page-upholstery .step-featured .step-dot {
   .hero-photo,
   .page-photo {
     min-height: 380px;
+  }
+
+  .contact-hero-photo {
+    min-height: 320px;
   }
 
   .footer-bar,
