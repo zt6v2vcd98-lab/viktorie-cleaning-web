@@ -1289,9 +1289,9 @@ body.page-office .banner-meta {
 
 .contact-hero-grid {
   display: grid;
-  grid-template-columns: 1.05fr 0.95fr;
-  gap: 1rem;
-  align-items: stretch;
+  grid-template-columns: minmax(0, 1.05fr) minmax(340px, 0.95fr);
+  gap: 1.25rem;
+  align-items: center;
 }
 
 .contact-hero-photo {
@@ -1309,6 +1309,10 @@ body.page-office .banner-meta {
   border: 1px solid rgba(17, 32, 51, 0.08);
   box-shadow: var(--shadow);
   align-self: start;
+}
+
+.contact-layout {
+  align-items: start;
 }
 
 .contact-card h3 {
@@ -1793,6 +1797,10 @@ body.page-upholstery .step-featured .step-dot {
   .hero,
   .page-hero {
     padding-top: 4.5rem;
+  }
+
+  .contact-hero-photo {
+    min-height: 340px;
   }
 
   .story-item {
