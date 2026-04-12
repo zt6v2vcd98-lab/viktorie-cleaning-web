@@ -1936,17 +1936,34 @@ body.page-upholstery .step-featured .step-dot {
   }
 
   .page-services .steps.steps-3.timeline::before {
-    left: 1.45rem;
+    display: none;
   }
 
   .page-services .step {
-    padding: 1.25rem 1.15rem 1.25rem 4.75rem;
-    min-height: 120px;
+    display: grid;
+    grid-template-columns: 1.9rem minmax(0, 1fr);
+    column-gap: 0.9rem;
+    align-items: start;
+    padding: 1.2rem;
+    min-height: auto;
   }
 
   .page-services .step-dot {
-    left: 0.85rem;
-    top: 0.95rem;
+    position: relative;
+    left: auto;
+    top: auto;
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    margin-top: 0.05rem;
+  }
+
+  .page-services .step h3,
+  .page-services .step p {
+    grid-column: 2;
+  }
+
+  .page-services .step h3 {
+    margin-bottom: 0.35rem;
   }
 
   .hero-visual,
