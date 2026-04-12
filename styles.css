@@ -1703,6 +1703,56 @@ body.page-upholstery .step-featured .step-dot {
   border: 1px solid rgba(45, 125, 104, 0.18);
 }
 
+.career-prefooter {
+  padding: 2.2rem;
+  border-radius: var(--radius-xl);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(244, 248, 251, 0.96));
+  border: 1px solid rgba(17, 32, 51, 0.08);
+  box-shadow: var(--shadow);
+}
+
+.career-intro {
+  max-width: 760px;
+  margin-bottom: 1.8rem;
+}
+
+.career-steps {
+  margin-top: 1.2rem;
+}
+
+.career-highlight {
+  margin: 1.8rem 0 1.2rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.career-contact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.career-contact-item {
+  padding: 1rem 1.1rem;
+  border-radius: 18px;
+  background: #ffffff;
+  border: 1px solid var(--line);
+  display: grid;
+  gap: 0.3rem;
+}
+
+.career-contact-label {
+  color: var(--text-soft);
+  font-weight: 700;
+}
+
+.career-contact-item a {
+  color: var(--accent);
+  font-weight: 800;
+  font-size: 1.02rem;
+}
+
 @media (max-width: 980px) {
   .hero-grid,
   .page-hero-grid,
@@ -1737,7 +1787,8 @@ body.page-upholstery .step-featured .step-dot {
   }
 
   .trust-grid,
-  .team-closing {
+  .team-closing,
+  .career-contact-grid {
     grid-template-columns: 1fr;
   }
 
@@ -1781,7 +1832,8 @@ body.page-upholstery .step-featured .step-dot {
 
   .hero-copy,
   .page-hero-copy,
-  .cta-panel {
+  .cta-panel,
+  .career-prefooter {
     padding: 2rem;
   }
 
