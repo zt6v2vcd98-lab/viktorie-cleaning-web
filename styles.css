@@ -1932,6 +1932,7 @@ body.page-upholstery .step-featured .step-dot {
   }
 
   .page-services .steps.steps-3.timeline {
+    grid-template-columns: 1fr;
     gap: 1.1rem;
   }
 
