@@ -1908,13 +1908,27 @@ body.page-upholstery .step-featured .step-dot {
   .card,
   .service-card,
   .highlight,
-  .step,
   .quote-card,
   .benefit-card,
   .pricing-card,
   .info-card,
   .feature-panel {
     padding: 1.2rem;
+  }
+
+  .step {
+    padding: 1.2rem 1.2rem 1.2rem 4.4rem;
+    min-height: 108px;
+  }
+
+  .step-dot {
+    left: 0.95rem;
+    top: 1rem;
+  }
+
+  .step h3,
+  .step p {
+    margin-left: 0;
   }
 
   .hero-visual,
