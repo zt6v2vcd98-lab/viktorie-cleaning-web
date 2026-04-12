@@ -1712,6 +1712,7 @@ body.page-upholstery .step-featured .step-dot {
   .why-grid,
   .grid-2,
   .pricing-grid,
+  .references-grid,
   .service-grid,
   .grid-3,
   .benefits-grid,
@@ -1860,6 +1861,11 @@ body.page-upholstery .step-featured .step-dot {
 
   .reference-feature-grid {
     grid-template-columns: 1fr;
+  }
+
+  .references-grid {
+    grid-template-columns: 1fr;
+    gap: 0.9rem;
   }
 
   .logo-strip {
