@@ -1931,6 +1931,24 @@ body.page-upholstery .step-featured .step-dot {
     margin-left: 0;
   }
 
+  .page-services .steps.steps-3.timeline {
+    gap: 1.1rem;
+  }
+
+  .page-services .steps.steps-3.timeline::before {
+    left: 1.45rem;
+  }
+
+  .page-services .step {
+    padding: 1.25rem 1.15rem 1.25rem 4.75rem;
+    min-height: 120px;
+  }
+
+  .page-services .step-dot {
+    left: 0.85rem;
+    top: 0.95rem;
+  }
+
   .hero-visual,
   .page-hero-visual,
   .hero-photo,
