@@ -6,6 +6,41 @@
   <title>Služby | Viktorie Cleaning</title>
   <meta name="description" content="Přehled služeb Viktorie Cleaning: úklid apartmánů, kanceláří, bytových domů, generální úklid, mytí oken a tepování.">
   <link rel="stylesheet" href="styles.css">
+  <style>
+    @media (max-width: 640px) {
+      .services-steps-mobile {
+        grid-template-columns: 1fr !important;
+      }
+
+      .services-steps-mobile::before {
+        display: none !important;
+      }
+
+      .services-steps-mobile .step {
+        display: grid;
+        grid-template-columns: 1.9rem minmax(0, 1fr);
+        column-gap: 0.9rem;
+        align-items: start;
+        padding: 1.2rem;
+        min-height: auto;
+      }
+
+      .services-steps-mobile .step-dot {
+        position: relative;
+        left: auto;
+        top: auto;
+        grid-column: 1;
+        grid-row: 1 / span 2;
+        margin-top: 0.05rem;
+      }
+
+      .services-steps-mobile .step h3,
+      .services-steps-mobile .step p {
+        grid-column: 2;
+        margin-left: 0;
+      }
+    }
+  </style>
 </head>
 <body class="page-services">
   <header class="site-header">
@@ -118,7 +153,7 @@
             <h2>Jak probíhá spolupráce</h2>
           </div>
         </div>
-        <div class="steps steps-3 timeline">
+        <div class="steps steps-3 timeline services-steps-mobile">
           <div class="step step-featured">
             <span class="step-dot">1</span>
             <h3>Poptávka</h3>
